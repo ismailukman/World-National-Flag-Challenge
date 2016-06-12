@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:src="@drawable/real1" android:contentDescription="@string/todo"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignTop="@+id/imageView4"
+        android:text="@string/_0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="invisible"
+        android:textColor="#FFF"
+        android:textSize="28sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView3"
+        android:text="@string/_0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF"
+        android:visibility="invisible"
+        android:textSize="28sp"
+        android:typeface="serif" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="16dp"
+        android:visibility="invisible"
+        android:layout_toLeftOf="@+id/textView3" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/algeria"
+            android:textSize="15sp"
+            android:textColor="#FFF" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/angola"
+            android:textSize="15sp"
+            android:textColor="#FFF" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nigeria"
+            android:textSize="15sp"
+            android:textColor="#FFF" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tanzania"
+            android:textSize="15sp"
+            android:textColor="#FFF" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="130dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:visibility="invisible"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/algeria" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/imageView1"
+        android:background="@drawable/btn1"
+        android:text="@string/ok"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_below="@+id/imageView3"
+        android:visibility="invisible"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/wrong" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/imageView4"
+        android:text="@string/_0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#00FF00"
+        android:visibility="invisible"
+        android:textSize="25sp"
+        android:shadowColor="#FF00FF"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="5"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignRight="@+id/imageView4"
+        android:text="@string/highest_score"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFF"
+        android:visibility="invisible"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/radioGroup1"
+        android:layout_alignLeft="@+id/imageView4"
+        android:contentDescription="@string/todo"
+        android:visibility="invisible"
+        android:src="@drawable/correct" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/africa" android:contentDescription="@string/todo"/>
+
+</RelativeLayout>
