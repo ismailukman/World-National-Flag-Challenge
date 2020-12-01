@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">العلم الوطني العالمي</string>
+    <string name="fa_award">&#xf559;</string>
+    <string name="start">بداية</string>
+    <string name="world_national_flag_challenge">تحدي العلم الوطني العالمي</string>
+    <string name="africa">أفريقيا</string>
+    <string name="asia">آسيا</string>
+    <string name="europe">أوروبا</string>
+    <string name="north_america">شمال امريكا</string>
+    <string name="oceania">أوقيانوسيا</string>
+    <string name="south_america">جنوب امريكا</string>
+    <string name="help">مساعدة</string>
+    <string name="this_challenge_requires_you_to_select_the_correct_country_name_of_the_national_flag_on_current_display_from_the_options_provided_beginning_with_africa_play_across_all_continents_to_stand_a_chance_of_getting_higher_points_long_press_the_audio_icon_to_select_music">يتطلب هذا التحدي تحديد اسم الدولة الصحيح للعلم الوطني على الشاشة الحالية من الخيارات المتوفرة. بدءًا من إفريقيا ، العب عبر جميع القارات لتحظى بفرصة الحصول على نقاط أعلى. اضغط لفترة طويلة على أيقونة الصوت لتحديد الموسيقى</string>
+    <string name="enjoy">...استمتع</string>
+    <string name="about">حول</string>
+    <string name="this_application_is_designed_to_ease_familiarity_with_world_national_flags_world_national_flag_challenge_provides_the_educative_and_entertaining_opportunity">تم تصميم هذا التطبيق لتسهيل الإلمام بالأعلام الوطنية العالمية. يوفر تحدي العلم الوطني العالمي فرصة تعليمية وترفيهية</string>
+    <string name="by_ismaila_lukman_enegi">مصنوع بواسطة Ismaila Lukman Enegi</string>
+    <string name="nigeria">نيجيريا</string>
+    <string name="ok">حسنا</string>
+
+    <string-array name="nigeria">
+        <item>Nigeria</item>
+        <item>Sudan</item>
+        <item>Ghana</item>
+        <item>South Africa</item>
+    </string-array>
+
+</resources>
+
+
+

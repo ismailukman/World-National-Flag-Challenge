@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ggg"
+    android:gravity="center"
+    tools:context=".Home">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:gravity="center"
+        android:lineHeight="38dp"
+        android:textColor="#131313"
+        android:text="@string/world_national_flag_challenge"
+        android:textSize="35dp" />
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/af"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btn3"
+                android:fontFamily="@font/rubik"
+                android:text="@string/africa"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+
+            <Button
+                android:id="@+id/asi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/btn3"
+                android:fontFamily="@font/rubik"
+                android:text="@string/asia"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/eu"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btn3"
+                android:fontFamily="@font/rubik"
+                android:text="@string/europe"
+                android:textColor="#FFF"
+                android:textSize="15sp"
+                android:textStyle="bold"  />
+
+            <Button
+                android:id="@+id/na"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/btn3"
+                android:fontFamily="@font/rubik"
+                android:text="@string/north_america"
+                android:textColor="#FFF"
+                android:textSize="15sp"
+                android:textStyle="bold"  />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:gravity="center">
+
+
+
+        <Button
+            android:id="@+id/oc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn3"
+            android:fontFamily="@font/rubik"
+            android:text="@string/oceania"
+            android:textColor="#FFF"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textStyle="bold"  />
+
+        <Button
+            android:id="@+id/sa"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/rubik"
+            android:background="@drawable/btn3"
+            android:text="@string/south_america"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/help"
+            android:layout_width="50dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="50dp"
+            android:src="@drawable/help"  />
+
+        <ImageView
+            android:id="@+id/audio"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/audio"  />
+
+
+        <ImageView
+            android:id="@+id/info"
+            android:layout_width="55dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="55dp"
+            android:src="@drawable/info"  />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

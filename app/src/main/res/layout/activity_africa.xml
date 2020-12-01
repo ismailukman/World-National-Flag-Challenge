@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/afri"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Africa">
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardElevation="5dp"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteX="8dp"
+        app:cardCornerRadius="8dp"
+        tools:layout_editor_absoluteY="244dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/flag"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:elevation="5dp"
+                android:padding="2dp"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/border"
+                android:visibility="visible"
+                android:src="@drawable/algeria" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="20dp"
+                android:visibility="visible"
+                android:layout_toLeftOf="@+id/textView3" >
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Algeria"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Angola"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nigeria"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tanzania"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/quizbtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/btn1"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:textAllCaps="false"
+                android:text="@string/ok"
+                android:textSize="25dp"
+                android:textColor="#FFF"   />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="visible"
+                        android:src="@drawable/correct" />
+
+                    <TextView
+                        android:id="@+id/right"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#55A643"
+                        android:textSize="35dp"
+                        android:fontFamily="@font/rubik"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:layout_marginLeft="30dp"
+                        android:id="@+id/imageView4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:visibility="visible"
+                        android:src="@drawable/wrong" />
+
+                    <TextView
+                        android:id="@+id/wrong"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#CD1026"
+                        android:visibility="visible"
+                        android:textSize="35dp"
+                        android:fontFamily="@font/rubik"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/hscimg"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="@string/fa_award"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="40dp"
+                        android:layout_marginRight="40dp" android:textColor="@color/black"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:id="@+id/hscore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/black"
+                        android:visibility="visible"
+                        android:textSize="40sp"
+                        android:shadowColor="#41AA45"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="5"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/rubik" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardElevation="5dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="0dp"
+        app:cardCornerRadius="8dp"
+        tools:layout_editor_absoluteY="244dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="250dp"
+                android:layout_height="300dp"
+                android:layout_above="@+id/button1"
+                android:layout_gravity="center"
+                android:src="@drawable/africa"  />
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/btn1"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:textAllCaps="false"
+                android:text="@string/ok"
+                android:textSize="25dp"
+                android:textColor="#FFF"   />
+
+        </LinearLayout>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WorldFlag" parent="Theme.MaterialComponents">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">#08709F</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">@color/ddblue</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lblue</item>
+        <item name="colorSecondaryVariant">@color/gray</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <!-- Customize your theme here. -->
+    </style>
+
+
+</resources>

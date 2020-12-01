@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WorldFlag" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">#074561</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">@color/ddblue</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lblue</item>
+        <item name="colorSecondaryVariant">@color/gray</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ActionBar.Solid.Ribbit.TitleTextStyle"
+        parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="background">@color/ddblue</item>
+    </style>
+
+    <style name="Theme.WorldFlag.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeOverlay.App.OutlinedButton" parent="">
+        <item name="colorPrimary">#311B92</item>
+        <item name="colorOnPrimary">#121212</item>
+        <item name="strokeColor">#121212</item>
+    </style>
+
+    <style name="ThemeOverlay.App.TextButton" parent="">
+        <item name="colorPrimary">#A33333</item>
+        <item name="colorOnPrimary">#121212</item>
+    </style>
+
+    <style name="TextAppearance.App.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textColor">#f43434</item>
+    </style>
+
+    <style name="myOutlineButton"  >
+        <item name="cornerSize">5dp</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="background">@drawable/border</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="strokeWidth">4dp</item>
+        <item name="strokeColor">@color/black</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+
+    <style name="Widget.App.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.OutlinedButton</item>
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+    </style>
+
+
+
+    <style name="ButtonStyleTextColor" parent="@style/Widget.MaterialComponents.Button">
+        <!-- For filled buttons, your theme's colorPrimary provides the default background color of the component, and -->
+        <!--the text color is colorOnPrimary -->
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+
+</resources>

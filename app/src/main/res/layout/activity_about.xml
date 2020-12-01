@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gg"
+    tools:context=".About">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:text="@string/about"
+        android:textColor="#1C1C1C"
+        android:fontFamily="@font/black_ops_one"
+        android:textSize="35dp" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_application_is_designed_to_ease_familiarity_with_world_national_flags_world_national_flag_challenge_provides_the_educative_and_entertaining_opportunity"
+        android:textColor="#000000"
+        android:fontFamily="@font/federant"
+        android:textSize="22dp"
+        android:gravity="center"  />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="22dp"
+        android:text="@string/by_ismaila_lukman_enegi"
+        android:textColor="#06069E"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:fontFamily="@font/berkshire_swash"   />
+
+
+
+</LinearLayout>

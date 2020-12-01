@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Dünya Ulusal Bayrağı</string>
+    <string name="fa_award">&#xf559;</string>
+    <string name="world_national_flag_challenge">Dünya Ulusal Bayrak Mücadelesi</string>
+    <string name="start">Başlat</string>
+    <string name="africa">Afrika</string>
+    <string name="asia">Asya</string>
+    <string name="europe">Avrupa</string>
+    <string name="north_america">Kuzey Amerika</string>
+    <string name="oceania">Okyanusya</string>
+    <string name="south_america">Güney Amerika</string>
+    <string name="help">Yardım</string>
+    <string name="this_challenge_requires_you_to_select_the_correct_country_name_of_the_national_flag_on_current_display_from_the_options_provided_beginning_with_africa_play_across_all_continents_to_stand_a_chance_of_getting_higher_points_long_press_the_audio_icon_to_select_music"> Bu meydan okuma, sunulan seçeneklerden mevcut ekranda ulusal bayrağın doğru ülke adını seçmenizi gerektirir. Afrika\'dan başlayarak, daha yüksek puan alma şansına sahip olmak için tüm kıtalarda oynayın. Müzik seçmek için ses simgesine uzun basın</string>
+    <string name="enjoy">...Zevk almak</string>
+    <string name="about">hakkında</string>
+    <string name="this_application_is_designed_to_ease_familiarity_with_world_national_flags_world_national_flag_challenge_provides_the_educative_and_entertaining_opportunity"> Bu uygulama, dünya ulusal bayrakları ile aşinalığı kolaylaştırmak için tasarlanmıştır. Dünya ulusal bayrak mücadelesi eğitici ve eğlenceli bir fırsat sunar</string>
+    <string name="by_ismaila_lukman_enegi">Yapan Ismaila Lukman Enegi</string>
+    <string name="nigeria">Nijerya</string>
+    <string name="ok">Tamam</string>
+
+    <string-array name="nigeria">
+        <item>Nigeria</item>
+        <item>Sudan</item>
+        <item>Ghana</item>
+        <item>South Africa</item>
+    </string-array>
+
+</resources>
+
+
+

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Drapeau national mondial</string>
+    <string name="fa_award">&#xf559;</string>
+    <string name="world_national_flag_challenge">Défi mondial du drapeau national</string>
+    <string name="start">Début</string>
+    <string name="africa">Afrique</string>
+    <string name="asia">Asie</string>
+    <string name="europe">L\'Europe </string>
+    <string name="north_america">Amérique du Nord</string>
+    <string name="oceania">Océanie</string>
+    <string name="south_america">Amérique du Sud</string>
+    <string name="help">Aidez</string>
+    <string name="this_challenge_requires_you_to_select_the_correct_country_name_of_the_national_flag_on_current_display_from_the_options_provided_beginning_with_africa_play_across_all_continents_to_stand_a_chance_of_getting_higher_points_long_press_the_audio_icon_to_select_music">Ce défi vous oblige à sélectionner le nom de pays correct du drapeau national sur l\'affichage actuel parmi les options fournies. En commençant par l\'Afrique, jouez sur tous les continents pour avoir une chance d\'obtenir des points plus élevés. Appuyez longuement sur l\'icône audio pour sélectionner la musique</string>
+    <string name="enjoy">...prendre plaisir</string>
+    <string name="about">À propos</string>
+    <string name="this_application_is_designed_to_ease_familiarity_with_world_national_flags_world_national_flag_challenge_provides_the_educative_and_entertaining_opportunity">Cette application est conçue pour faciliter la familiarité avec les drapeaux nationaux du monde. Le défi du drapeau national mondial offre une opportunité éducative et divertissante</string>
+    <string name="by_ismaila_lukman_enegi">Faite par Ismaila Lukman Enegi</string>
+    <string name="nigeria">Nigeria</string>
+    <string name="ok">D\'accord</string>
+
+    <string-array name="nigeria">
+        <item>Nigeria</item>
+        <item>Sudan</item>
+        <item>Ghana</item>
+        <item>South Africa</item>
+    </string-array>
+
+</resources>
+
+
+
