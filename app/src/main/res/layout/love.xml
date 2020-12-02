@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mylove"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginBottom="10dp"
+        android:elevation="6dp"
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/love" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_medium"
+        android:textColor="#E8272626"
+        android:textSize="16dp"
+        android:text="I dedicate this game application to my lovely wife, the beauty of all beauty. May garden of joy and happiness be yours. You mean a lot to me.
+I am happy that this finally worked at least closer to what i wanted. I hope you like it"
+        />
+
+</LinearLayout>

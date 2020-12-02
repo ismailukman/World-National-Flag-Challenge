@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lukman.hivenet.worldnationalflagchallenge">
+    package="com.lukman.worldnationalflagchallenge">
 
     <application
         android:allowBackup="true"
@@ -9,38 +9,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WorldFlag">
-        <activity android:name="com.lukman.hivenet.worldnationalflagchallenge.SAmerica"
+        <activity android:name="com.lukman.worldnationalflagchallenge.SAmerica"
             android:noHistory="true"
             android:theme="@style/Theme.WorldFlag.NoActionBar"
             />
-        <activity android:name="com.lukman.hivenet.worldnationalflagchallenge.Oceania"
+        <activity android:name="com.lukman.worldnationalflagchallenge.Oceania"
             android:theme="@style/Theme.WorldFlag.NoActionBar"
             />
-        <activity android:name="com.lukman.hivenet.worldnationalflagchallenge.NAmerica"
+        <activity android:name="com.lukman.worldnationalflagchallenge.NAmerica"
             android:noHistory="true"
             android:theme="@style/Theme.WorldFlag.NoActionBar"
             />
-        <activity android:name="com.lukman.hivenet.worldnationalflagchallenge.Europe"
+        <activity android:name="com.lukman.worldnationalflagchallenge.Europe"
             android:noHistory="true"
             android:theme="@style/Theme.WorldFlag.NoActionBar"
             />
         <activity
-            android:name="com.lukman.hivenet.worldnationalflagchallenge.Asia"
+            android:name="com.lukman.worldnationalflagchallenge.Asia"
             android:noHistory="true"
             android:theme="@style/Theme.WorldFlag.NoActionBar" />
         <activity
-            android:name="com.lukman.hivenet.worldnationalflagchallenge.Africa"
+            android:name="com.lukman.worldnationalflagchallenge.Africa"
             android:noHistory="true"
             android:theme="@style/Theme.WorldFlag.NoActionBar" />
         <activity
-            android:name="com.lukman.hivenet.worldnationalflagchallenge.About"
+            android:name="com.lukman.worldnationalflagchallenge.About"
             android:theme="@style/Theme.WorldFlag.NoActionBar"/>
         <activity
-            android:name="com.lukman.hivenet.worldnationalflagchallenge.Help"
+            android:name="com.lukman.worldnationalflagchallenge.Help"
             android:theme="@style/Theme.WorldFlag.NoActionBar"/>
-        <activity android:name="com.lukman.hivenet.worldnationalflagchallenge.Home"
+        <activity android:name="com.lukman.worldnationalflagchallenge.Home"
             />
-        <activity android:name="com.lukman.hivenet.worldnationalflagchallenge.Main">
+        <activity android:name="com.lukman.worldnationalflagchallenge.Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
