@@ -9,7 +9,5 @@ Current version 2.0
 
 Demo Link : https://play.google.com/store/apps/details?id=com.lukman.worldnationalflagchallenge
 
-![National Flag Challenge](https://github.com/ismailukman/World-National-Flag-Challenge/blob/master/WorldNationalFlag.jpg width="100" height="100")  
-
-<img src="https://github.com/ismailukman/World-National-Flag-Challenge/blob/master/WorldNationalFlag.jpg" alt="National Flag Challenge" width="400px" height="750">
-
+<img src="https://github.com/ismailukman/World-National-Flag-Challenge/blob/master/WorldNationalFlag.jpg" alt="National Flag Challenge" width="350px" height="700">
+<img src="https://github.com/ismailukman/World-National-Flag-Challenge/blob/master/home.jpg" alt="Challenge Home" width="350px" height="700">
