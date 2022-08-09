@@ -4,7 +4,7 @@ This Application is an interactive multi choice game for everyone to learn all n
 
 Current version 2.0
 
-4 language options are available but excuding the in-game options
+4 language options are available but excluding the in-game options
 (English, French, Arabic, Turkish)
 
 Demo Link : https://play.google.com/store/apps/details?id=com.lukman.worldnationalflagchallenge
