@@ -11,5 +11,5 @@ Demo Link : https://play.google.com/store/apps/details?id=com.lukman.worldnation
 
 ![National Flag Challenge](https://github.com/ismailukman/World-National-Flag-Challenge/blob/master/WorldNationalFlag.jpg width="100" height="100")  
 
-<img src="https://github.com/ismailukman/World-National-Flag-Challenge/blob/master/WorldNationalFlag.jpg" alt="National Flag Challenge" width="400px" height="900">
+<img src="https://github.com/ismailukman/World-National-Flag-Challenge/blob/master/WorldNationalFlag.jpg" alt="National Flag Challenge" width="400px" height="750">
 
