@@ -94,6 +94,10 @@ class MascotCharacter extends StatelessWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
+        border: Border.all(
+          color: Colors.white.withOpacity(0.85),
+          width: 3,
+        ),
         boxShadow: [
           BoxShadow(
             color: Colors.black.withOpacity(0.2),
@@ -115,7 +119,12 @@ class MascotCharacter extends StatelessWidget {
               );
             }
 
-            return _buildMascotIcon(state);
+            return ClipOval(
+              child: Image.asset(
+                'assets/images/icons/app_logo.png',
+                fit: BoxFit.cover,
+              ),
+            );
           },
         ),
       ),

@@ -62,7 +62,9 @@ class AudioBloc extends Bloc<AudioEvent, AudioState> {
     }
     await _musicPlayer.stop();
     await _musicPlayer.setSource(
-      kIsWeb ? UrlSource(trackPath) : AssetSource(_assetKey(trackPath)),
+      kIsWeb
+          ? UrlSource(Uri.base.resolve('assets/$trackPath').toString())
+          : AssetSource(_assetKey(trackPath)),
     );
     await _musicPlayer.setVolume(currentState.musicVolume);
     await _musicPlayer.resume();
@@ -256,7 +258,9 @@ class AudioBloc extends Bloc<AudioEvent, AudioState> {
       final player = _sfxPlayers[event.effectName]!;
       await player.stop();
       await player.setSource(
-        kIsWeb ? UrlSource(effectPath) : AssetSource(_assetKey(effectPath)),
+        kIsWeb
+            ? UrlSource(Uri.base.resolve('assets/$effectPath').toString())
+            : AssetSource(_assetKey(effectPath)),
       );
       await player.setVolume(currentState.sfxVolume);
       await player.resume();
