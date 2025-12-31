@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
@@ -61,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
     final settingsRepo = context.read<SettingsRepository>();
-    final showMascot = settingsRepo.isMascotEnabled();
+    final showMascot = kIsWeb || settingsRepo.isMascotEnabled();
 
     return Scaffold(
       body: Container(

@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:world_national_flag_challenge/l10n/app_localizations.dart';
@@ -213,7 +214,7 @@ class _DailyChallengeScreenContentState
 
   Widget _buildMascot(BuildContext context) {
     final settingsRepo = context.read<SettingsRepository>();
-    if (!settingsRepo.isMascotEnabled()) {
+    if (!kIsWeb && !settingsRepo.isMascotEnabled()) {
       return const SizedBox.shrink();
     }
 
