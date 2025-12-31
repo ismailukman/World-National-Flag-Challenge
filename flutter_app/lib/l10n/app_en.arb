@@ -1,0 +1,249 @@
+{
+  "@@locale": "en",
+  "app_name": "World Nation Flag Challenge",
+  "@app_name": {
+    "description": "The application name"
+  },
+  "world_national_flag_challenge": "World Nation Flag Challenge",
+  "@world_national_flag_challenge": {
+    "description": "Full title of the application"
+  },
+  "start": "Start",
+  "@start": {
+    "description": "Button text to start the quiz"
+  },
+  "africa": "Africa",
+  "@africa": {
+    "description": "Continent name - Africa"
+  },
+  "asia": "Asia",
+  "@asia": {
+    "description": "Continent name - Asia"
+  },
+  "europe": "Europe",
+  "@europe": {
+    "description": "Continent name - Europe"
+  },
+  "north_america": "North America",
+  "@north_america": {
+    "description": "Continent name - North America"
+  },
+  "oceania": "Oceania",
+  "@oceania": {
+    "description": "Continent name - Oceania"
+  },
+  "south_america": "South America",
+  "@south_america": {
+    "description": "Continent name - South America"
+  },
+  "help": "Help",
+  "@help": {
+    "description": "Help menu or button text"
+  },
+  "this_challenge_requires_you_to_select_the_correct_country_name_of_the_national_flag_on_current_display_from_the_options_provided_beginning_with_africa_play_across_all_continents_to_stand_a_chance_of_getting_higher_points_long_press_the_audio_icon_to_select_music": "This challenge requires you to select the correct country name of the national flag on current display from the options provided. Beginning with africa, play across all continents to stand a chance of getting higher points. Long press the audio icon to select music",
+  "@this_challenge_requires_you_to_select_the_correct_country_name_of_the_national_flag_on_current_display_from_the_options_provided_beginning_with_africa_play_across_all_continents_to_stand_a_chance_of_getting_higher_points_long_press_the_audio_icon_to_select_music": {
+    "description": "Help instructions for playing the game"
+  },
+  "enjoy": "...enjoy",
+  "@enjoy": {
+    "description": "Encouragement text"
+  },
+  "about": "About",
+  "@about": {
+    "description": "About menu or section title"
+  },
+  "this_application_is_designed_to_ease_familiarity_with_world_national_flags_world_national_flag_challenge_provides_the_educative_and_entertaining_opportunity": "This application is designed to ease familiarity with world national flags. World national flag challenge provides the educative and entertaining opportunity",
+  "@this_application_is_designed_to_ease_familiarity_with_world_national_flags_world_national_flag_challenge_provides_the_educative_and_entertaining_opportunity": {
+    "description": "About section description text"
+  },
+  "by_ismaila_lukman_enegi": "by Ismaila Lukman Enegi",
+  "@by_ismaila_lukman_enegi": {
+    "description": "Developer credit line"
+  },
+  "nigeria": "Nigeria",
+  "@nigeria": {
+    "description": "Country name - Nigeria"
+  },
+  "ok": "Ok",
+  "@ok": {
+    "description": "OK button text"
+  },
+  "mascot_greeting": "Hi! I'm Flaggy, your flag learning buddy!",
+  "@mascot_greeting": {
+    "description": "Mascot greeting message when user starts the app"
+  },
+  "mascot_correct": "Great job!",
+  "@mascot_correct": {
+    "description": "Mascot message when user answers correctly"
+  },
+  "mascot_wrong": "Keep trying!",
+  "@mascot_wrong": {
+    "description": "Mascot message when user answers incorrectly"
+  },
+  "mascot_quiz_complete": "Amazing work! You learned {count} flags!",
+  "@mascot_quiz_complete": {
+    "description": "Mascot message when quiz is completed",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "achievement_first_quiz": "First Quiz",
+  "@achievement_first_quiz": {
+    "description": "Achievement title for completing first quiz"
+  },
+  "achievement_first_quiz_desc": "Complete your first quiz",
+  "@achievement_first_quiz_desc": {
+    "description": "Achievement description for completing first quiz"
+  },
+  "achievement_global_explorer": "Global Explorer",
+  "@achievement_global_explorer": {
+    "description": "Achievement title for trying all continents"
+  },
+  "achievement_global_explorer_desc": "Try all 6 continents",
+  "@achievement_global_explorer_desc": {
+    "description": "Achievement description for trying all continents"
+  },
+  "achievement_africa_expert": "Africa Expert",
+  "@achievement_africa_expert": {
+    "description": "Achievement title for Africa perfect score"
+  },
+  "achievement_africa_expert_desc": "Perfect score on Africa quiz",
+  "@achievement_africa_expert_desc": {
+    "description": "Achievement description for Africa perfect score"
+  },
+  "achievement_perfectionist": "Perfectionist",
+  "@achievement_perfectionist": {
+    "description": "Achievement title for getting 100% on a quiz"
+  },
+  "achievement_perfectionist_desc": "Get 100% correct on a quiz",
+  "@achievement_perfectionist_desc": {
+    "description": "Achievement description for getting 100% on a quiz"
+  },
+  "achievement_week_warrior": "Week Warrior",
+  "@achievement_week_warrior": {
+    "description": "Achievement title for 7-day login streak"
+  },
+  "achievement_week_warrior_desc": "7-day login streak",
+  "@achievement_week_warrior_desc": {
+    "description": "Achievement description for 7-day login streak"
+  },
+  "achievement_fortnight_fighter": "Fortnight Fighter",
+  "@achievement_fortnight_fighter": {
+    "description": "Achievement title for 14-day login streak"
+  },
+  "achievement_fortnight_fighter_desc": "14-day login streak",
+  "@achievement_fortnight_fighter_desc": {
+    "description": "Achievement description for 14-day login streak"
+  },
+  "achievement_monthly_master": "Monthly Master",
+  "@achievement_monthly_master": {
+    "description": "Achievement title for 30-day login streak"
+  },
+  "achievement_monthly_master_desc": "30-day login streak",
+  "@achievement_monthly_master_desc": {
+    "description": "Achievement description for 30-day login streak"
+  },
+  "achievement_speedster": "Speedster",
+  "@achievement_speedster": {
+    "description": "Achievement title for completing quiz quickly"
+  },
+  "achievement_speedster_desc": "Complete quiz in under 90 seconds",
+  "@achievement_speedster_desc": {
+    "description": "Achievement description for completing quiz quickly"
+  },
+  "achievement_dedicated_learner": "Dedicated Learner",
+  "@achievement_dedicated_learner": {
+    "description": "Achievement title for completing 50 quizzes"
+  },
+  "achievement_dedicated_learner_desc": "Complete 50 quizzes",
+  "@achievement_dedicated_learner_desc": {
+    "description": "Achievement description for completing 50 quizzes"
+  },
+  "achievement_flag_fanatic": "Flag Fanatic",
+  "@achievement_flag_fanatic": {
+    "description": "Achievement title for completing 100 quizzes"
+  },
+  "achievement_flag_fanatic_desc": "Complete 100 quizzes",
+  "@achievement_flag_fanatic_desc": {
+    "description": "Achievement description for completing 100 quizzes"
+  },
+  "practice_mode": "Practice Mode",
+  "@practice_mode": {
+    "description": "Label for practice mode option"
+  },
+  "daily_challenge": "Daily Challenge",
+  "@daily_challenge": {
+    "description": "Label for daily challenge feature"
+  },
+  "achievements": "Achievements",
+  "@achievements": {
+    "description": "Label for achievements section"
+  },
+  "leaderboard": "Leaderboard",
+  "@leaderboard": {
+    "description": "Label for leaderboard section"
+  },
+  "score": "Score",
+  "@score": {
+    "description": "Label for score display"
+  },
+  "correct": "Correct",
+  "@correct": {
+    "description": "Label for correct answers count"
+  },
+  "wrong": "Wrong",
+  "@wrong": {
+    "description": "Label for wrong answers count"
+  },
+  "high_score": "High Score",
+  "@high_score": {
+    "description": "Label for high score display"
+  },
+  "new_high_score": "New High Score!!!",
+  "@new_high_score": {
+    "description": "Message shown when user achieves new high score"
+  },
+  "continue_text": "Continue",
+  "@continue_text": {
+    "description": "Continue button text"
+  },
+  "try_again": "Please try again!",
+  "@try_again": {
+    "description": "Message encouraging user to try again"
+  },
+  "select_language": "Select Default Language",
+  "@select_language": {
+    "description": "Label for language selection option"
+  },
+  "quiz": "Quiz",
+  "@quiz": {
+    "description": "Label for quiz screen"
+  },
+  "whichCountryFlag": "Which country does this flag belong to?",
+  "@whichCountryFlag": {
+    "description": "Question prompt in quiz"
+  },
+  "goBack": "Go Back",
+  "@goBack": {
+    "description": "Go back button text"
+  },
+  "quizComplete": "Quiz Complete!",
+  "@quizComplete": {
+    "description": "Title when quiz is completed"
+  },
+  "finalScore": "Final Score",
+  "@finalScore": {
+    "description": "Label for final score display"
+  },
+  "playAgain": "Play Again",
+  "@playAgain": {
+    "description": "Play again button text"
+  },
+  "achievementsUnlocked": "Achievements Unlocked!",
+  "@achievementsUnlocked": {
+    "description": "Title for newly unlocked achievements"
+  }
+}
