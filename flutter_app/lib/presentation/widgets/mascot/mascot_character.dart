@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:flutter/services.dart';
-import 'package:rive/rive.dart' hide LinearGradient;
 
 /// Mascot character widget - placeholder for Rive animation
 ///
@@ -19,8 +17,6 @@ class MascotCharacter extends StatelessWidget {
   final String? message;
   final bool showMessage;
   final VoidCallback? onTap;
-
-  static final Future<bool> _riveAvailable = _checkRiveAsset();
 
   const MascotCharacter({
     super.key,
@@ -84,68 +80,7 @@ class MascotCharacter extends StatelessWidget {
   }
 
   Widget _buildMascotAvatar(MascotState state) {
-    return Container(
-      width: 80,
-      height: 80,
-      decoration: BoxDecoration(
-        shape: BoxShape.circle,
-        gradient: LinearGradient(
-          colors: _getMascotColors(state),
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
-        border: Border.all(
-          color: Colors.white.withOpacity(0.85),
-          width: 3,
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.2),
-            blurRadius: 10,
-            offset: const Offset(0, 4),
-          ),
-        ],
-      ),
-      child: Center(
-        child: FutureBuilder<bool>(
-          future: _riveAvailable,
-          builder: (context, snapshot) {
-            if (snapshot.data == true) {
-              return ClipOval(
-                child: RiveAnimation.asset(
-                  'assets/animations/mascot.riv',
-                  fit: BoxFit.cover,
-                ),
-              );
-            }
-
-            return Stack(
-              alignment: Alignment.center,
-              children: [
-                ClipOval(
-                  child: Image.asset(
-                    'assets/images/icons/app_logo.png',
-                    fit: BoxFit.cover,
-                    width: 80,
-                    height: 80,
-                  ),
-                ),
-                _buildMascotIcon(state),
-              ],
-            );
-          },
-        ),
-      ),
-    );
-  }
-
-  static Future<bool> _checkRiveAsset() async {
-    try {
-      await rootBundle.load('assets/animations/mascot.riv');
-      return true;
-    } catch (_) {
-      return false;
-    }
+    return _buildMascotIcon(state);
   }
 
   Widget _buildMascotIcon(MascotState state) {
