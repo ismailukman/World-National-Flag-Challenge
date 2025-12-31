@@ -21,6 +21,7 @@ import 'presentation/blocs/language/language_event.dart';
 import 'presentation/blocs/language/language_state.dart';
 import 'presentation/blocs/audio/audio_bloc.dart';
 import 'presentation/blocs/audio/audio_event.dart';
+import 'presentation/blocs/audio/audio_state.dart';
 
 // Screens
 import 'presentation/screens/language/language_selection_screen.dart';
@@ -274,7 +275,40 @@ class _WorldNationalFlagChallengeAppState
                     ),
                   );
                 }
-                return app;
+
+                return Stack(
+                  children: [
+                    app,
+                    if (kIsWeb)
+                      BlocBuilder<AudioBloc, AudioState>(
+                        builder: (context, audioState) {
+                          if (audioState is! AudioReady) {
+                            return const SizedBox.shrink();
+                          }
+                          if (!audioState.isMusicEnabled || audioState.isPlaying) {
+                            return const SizedBox.shrink();
+                          }
+                          return Positioned(
+                            left: 16,
+                            bottom: 16,
+                            child: ElevatedButton.icon(
+                              onPressed: () {
+                                _webAudioUnlocked = true;
+                                context.read<AudioBloc>()
+                                    .add(const PlayBackgroundMusic());
+                              },
+                              icon: const Icon(Icons.volume_up),
+                              label: const Text('Enable audio'),
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: const Color(0xFF399DC5),
+                                foregroundColor: Colors.white,
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+                  ],
+                );
               },
             );
           },
