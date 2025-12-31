@@ -61,6 +61,7 @@ class _WorldNationalFlagChallengeAppState
 
   // Router
   late final GoRouter _router;
+  bool _webAudioUnlocked = false;
 
   @override
   void initState() {
@@ -258,10 +259,18 @@ class _WorldNationalFlagChallengeAppState
                   child: child,
                 );
                 if (kIsWeb) {
-                  app = Center(
-                    child: ConstrainedBox(
-                      constraints: const BoxConstraints(maxWidth: 1100),
-                      child: app,
+                  app = Listener(
+                    behavior: HitTestBehavior.translucent,
+                    onPointerDown: (_) {
+                      if (_webAudioUnlocked) return;
+                      _webAudioUnlocked = true;
+                      context.read<AudioBloc>().add(const PlayBackgroundMusic());
+                    },
+                    child: Center(
+                      child: ConstrainedBox(
+                        constraints: const BoxConstraints(maxWidth: 1100),
+                        child: app,
+                      ),
                     ),
                   );
                 }

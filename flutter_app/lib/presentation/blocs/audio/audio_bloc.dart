@@ -87,8 +87,8 @@ class AudioBloc extends Bloc<AudioEvent, AudioState> {
         isPlaying: false,
       ));
 
-      // Auto-play if music is enabled (skip on web until user gesture)
-      if (isMusicEnabled && !kIsWeb) {
+      // Auto-play if music is enabled (web will retry on first user gesture)
+      if (isMusicEnabled) {
         add(PlayBackgroundMusic(trackName: currentTrack));
       }
     } catch (e) {
@@ -117,7 +117,11 @@ class AudioBloc extends Bloc<AudioEvent, AudioState> {
         ));
       }
     } catch (e) {
-      emit(AudioError('Failed to play music: $e'));
+      if (kIsWeb) {
+        emit(currentState.copyWith(isPlaying: false));
+      } else {
+        emit(AudioError('Failed to play music: $e'));
+      }
     }
   }
 

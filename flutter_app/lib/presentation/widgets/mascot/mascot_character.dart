@@ -119,11 +119,19 @@ class MascotCharacter extends StatelessWidget {
               );
             }
 
-            return ClipOval(
-              child: Image.asset(
-                'assets/images/icons/app_logo.png',
-                fit: BoxFit.cover,
-              ),
+            return Stack(
+              alignment: Alignment.center,
+              children: [
+                ClipOval(
+                  child: Image.asset(
+                    'assets/images/icons/app_logo.png',
+                    fit: BoxFit.cover,
+                    width: 80,
+                    height: 80,
+                  ),
+                ),
+                _buildMascotIcon(state),
+              ],
             );
           },
         ),
