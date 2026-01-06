@@ -1,0 +1,23 @@
+# 3D Model Licenses
+
+## Earth Globe Models
+
+Add attribution information here for the 3D Earth models used in this app.
+
+### Template:
+
+Model Name: [Name of the model]
+Author: [Creator's name]
+Source: [URL where you downloaded it]
+License: [e.g., CC0, CC BY 4.0, etc.]
+Modifications: [Any changes you made]
+
+---
+
+Example:
+
+Model Name: Low Poly Earth
+Author: Quaternius
+Source: https://quaternius.com/
+License: CC0 (Public Domain)
+Modifications: Converted from GLTF to GLB format
