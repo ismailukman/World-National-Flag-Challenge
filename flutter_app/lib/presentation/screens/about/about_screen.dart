@@ -223,7 +223,7 @@ class AboutScreen extends StatelessWidget {
 
               // Copyright
               Text(
-                '© 2015-2025 World Nation Flag Challenge',
+                '© 2015-2026 World Nation Flag Challenge',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey[600],
